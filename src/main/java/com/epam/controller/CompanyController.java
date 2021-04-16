@@ -37,7 +37,7 @@ public class CompanyController {
 	public String healthStatus() {
 		logger.debug("Starting REST Client for checking health!!!!");
 		logger.info("Starting REST Client for health start : "+new Date());
-		return "Company Management Service UP and RUNNING";
+		return "Company Management Service UP and RUNNING-- redeploying";
 
 	}
 	@GetMapping("/health-status2")
