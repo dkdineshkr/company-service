@@ -1,4 +1,4 @@
-package com.zensar.configuration;
+package com.epam.configuration;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

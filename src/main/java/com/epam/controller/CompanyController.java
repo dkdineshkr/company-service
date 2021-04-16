@@ -1,4 +1,4 @@
-package com.zensar.controller;
+package com.epam.controller;
 
 
 import java.io.PrintWriter;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.zensar.entity.Employee;
+import com.epam.entity.Employee;
 
 @RestController
 @RequestMapping("/companymgmt")
@@ -44,7 +44,7 @@ public class CompanyController {
 	public String healthStatus2() {
 		logger.debug("Starting REST Client for checking health!!!!");
 		logger.info("Starting REST Client for health start : "+new Date());
-		return "Company Management Service UP and RUNNING with health status 2";
+		return "Company Management Service UP and RUNNING with health status 3";
 
 	}
 

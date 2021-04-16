@@ -1,4 +1,4 @@
-package com.zensar.entity;
+package com.epam.entity;
 
 public class Employee {
 

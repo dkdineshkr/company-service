@@ -9,7 +9,7 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath />
 	</parent>
-	<groupId>com.zensar</groupId>
+	<groupId>com.epam</groupId>
 	<artifactId>company-service</artifactId>
 	<version>1.0</version>
 	<name>company-service</name>
